@@ -10,11 +10,11 @@ body{
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: linear-gradient(135deg, #4AB1FF, #2D5CFE);
+  background: linear-gradient(135deg, #4AB1FF, #2dfed1);
 }
 ::selection{
   color: #fff;
-  background: #3C87FF;
+  background: #3cc8ff;
 }
 .wrapper{
   max-width: 405px;
@@ -22,7 +22,7 @@ body{
   margin: 137px auto;
   background: #fff;
   border-radius: 7px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(42, 41, 41, 0.1);
 }
 .task-input{
   height: 52px;
@@ -46,7 +46,7 @@ body{
 .task-input input:focus,
 .task-input input.active{
   padding-left: 52px;
-  border: 2px solid #3C87FF;
+  border: 2px solid #3cf8ff;
 }
 .task-input input::placeholder{
   color: #bfbfbf;
@@ -70,7 +70,7 @@ body{
   margin-left: 0;
 }
 .filters span.active{
-  color: #3C87FF;
+  color: #3ce2ff;
 }
 .controls .clear-btn{
   border: none;
@@ -84,7 +84,7 @@ body{
   letter-spacing: 0.3px;
   pointer-events: none;
   transition: transform 0.25s ease;
-  background: linear-gradient(135deg, #1798fb 0%, #2D5CFE 100%);
+  background: linear-gradient(135deg, #17ecfb 0%, #2dcafe 100%);
 }
 .clear-btn.active{
   opacity: 0.9;
